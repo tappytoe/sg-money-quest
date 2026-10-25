@@ -194,3 +194,10 @@ footer{padding-top:1.4rem}
 
 .footer-arcade-link{margin-top:.55rem;display:inline-flex;justify-content:center}
 footer{text-align:center;line-height:1.8}
+
+/* Give the footer room to breathe below the game */
+#app{margin-bottom:2.5rem}
+footer{margin-top:2.5rem;padding:1.5rem 1rem 2rem;border-top:1px solid rgba(167,139,250,.18)}
+.footer-arcade-link{align-items:center;gap:.55rem;margin-top:.9rem;padding:.45rem .8rem;border:1px solid rgba(167,139,250,.28);border-radius:999px;background:rgba(167,139,250,.08)}
+.footer-arcade-link img{display:block;border-radius:7px;flex-shrink:0}
+.footer-arcade-link:hover{border-color:var(--pri);background:rgba(185,243,74,.08)}

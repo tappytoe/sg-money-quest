@@ -216,3 +216,7 @@ footer{margin-top:5rem;padding-top:3.5rem;padding-bottom:3rem}
 /* Tighten the empty space before the footer; keep the footer logo breathing room */
 #app{margin-bottom:1.5rem}
 footer{margin-top:1rem;padding-top:2rem;padding-bottom:3rem}
+
+/* Final fix: remove the oversized blank block before the footer */
+main#app{margin-bottom:0!important;padding-bottom:0!important;min-height:0!important}
+body>footer{margin-top:1rem!important;padding-top:1.5rem!important;padding-bottom:2.5rem!important}

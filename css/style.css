@@ -208,3 +208,7 @@ footer{margin-top:4rem;padding:2rem 1rem 2.5rem;border-top:1px solid rgba(167,13
 .footer-arcade-link{margin-top:1.25rem;display:inline-flex;align-items:center;justify-content:center;padding:.25rem;border:1px solid rgba(167,139,250,.28);border-radius:16px;background:rgba(167,139,250,.08)}
 .footer-arcade-link img{display:block;width:44px;height:44px;border-radius:12px;flex-shrink:0}
 .footer-arcade-link:hover{border-color:var(--pri);background:rgba(185,243,74,.08);transform:translateY(-2px)}
+
+/* Extra separation between the final game card and footer */
+#app{margin-bottom:7rem}
+footer{margin-top:5rem;padding-top:3.5rem;padding-bottom:3rem}

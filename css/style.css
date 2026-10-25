@@ -139,3 +139,55 @@ input:focus{outline:none;border-color:var(--alt)}
   .screen-icon{font-size:1.8rem}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* TappyToe Arcade theme */
+:root{
+  --bg:#10111b;--ink:#f6f3ff;--muted:#aaa6c2;--card:#1b1c2b;
+  --pri:#b9f34a;--pri-d:#7da82b;--alt:#a78bfa;--alt-d:#7659c8;
+  --good:#8ce99a;--bad:#ff7b8a;--gold:#ffd166;--radius:18px;
+  --shadow:0 8px 28px rgba(0,0,0,.24);
+}
+body{
+  color:var(--ink);
+  background:radial-gradient(circle at 10% 0%,rgba(117,81,199,.24),transparent 34%),
+             radial-gradient(circle at 95% 25%,rgba(185,243,74,.08),transparent 30%),var(--bg);
+  background-attachment:fixed;
+}
+.topbar{background:rgba(16,17,27,.94);border-bottom:1px solid rgba(167,139,250,.22);backdrop-filter:blur(14px)}
+.logo{letter-spacing:-.04em;font-weight:900}
+.logo span{background:var(--pri);color:#171925;border-radius:7px}
+.arcade-link{display:inline-flex;align-items:center;gap:.35rem;color:#d8ccff;text-decoration:none;font-weight:800;font-size:.9rem;white-space:nowrap}
+.arcade-link:hover{color:var(--pri)}
+.icon-btn{background:#29283d;border:1px solid rgba(255,255,255,.08)}
+.panel,.level-pick,.mode{background:var(--card);color:var(--ink);box-shadow:var(--shadow);border:1px solid rgba(167,139,250,.16)}
+.mode{border-top:4px solid var(--c)}
+.mode:hover{border-color:var(--pri);transform:translateY(-4px)}
+.mode small,.muted,footer{color:var(--muted)}
+.btn{background:var(--pri);color:#171925;box-shadow:0 4px 0 var(--pri-d)}
+.btn.alt{background:var(--alt);color:#171925;box-shadow:0 4px 0 var(--alt-d)}
+.btn.ghost{background:#302b48;color:#eee8ff;box-shadow:0 4px 0 #211d34}
+.lvl{color:var(--ink)}
+.lvl.on{background:var(--pri);color:#171925}
+.tray{background:#242239}
+.tray.pay{background:#172d2b;border-color:#397b63}
+.till{background:#30283c}
+.eq li,.bubble,.count-on,.tip{background:#29263e;color:var(--ink)}
+.item-card,.goal,.badge,.event-card{background:#242438;color:var(--ink)}
+.event-card.need{background:#1d2b3b}.event-card.bonus{background:#1b3028}.event-card.want{background:#34222e}
+.price{background:var(--pri);color:#171925}
+input{background:#171825;color:var(--ink);border-color:#51456f}
+input:focus{border-color:var(--pri)}
+.level-pick{border-radius:16px}
+#toast{background:#28243d;border:1px solid rgba(185,243,74,.3)}
+#toast.gold{background:#51401c}
+.bar{background:#302b48}
+.badge.locked{opacity:.38}
+footer{padding-top:1.4rem}
+.arcade-link:focus-visible,.icon-btn:focus-visible,.btn:focus-visible{outline:3px solid var(--pri);outline-offset:3px}
+@media(max-width:520px){
+  .topbar{gap:.35rem;padding:.55rem .6rem}
+  .logo{font-size:.95rem}
+  .arcade-link{font-size:.72rem;gap:.2rem}
+  .arcade-link span{max-width:78px;white-space:normal;line-height:1.05}
+  .stats{gap:.3rem;font-size:.9rem}
+}

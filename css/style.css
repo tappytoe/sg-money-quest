@@ -201,3 +201,10 @@ footer{margin-top:2.5rem;padding:1.5rem 1rem 2rem;border-top:1px solid rgba(167,
 .footer-arcade-link{align-items:center;gap:.55rem;margin-top:.9rem;padding:.45rem .8rem;border:1px solid rgba(167,139,250,.28);border-radius:999px;background:rgba(167,139,250,.08)}
 .footer-arcade-link img{display:block;border-radius:7px;flex-shrink:0}
 .footer-arcade-link:hover{border-color:var(--pri);background:rgba(185,243,74,.08)}
+
+/* Footer breathing room and compact logo-only arcade link */
+#app{margin-bottom:4rem}
+footer{margin-top:4rem;padding:2rem 1rem 2.5rem;border-top:1px solid rgba(167,139,250,.18);text-align:center;line-height:1.8}
+.footer-arcade-link{margin-top:1.25rem;display:inline-flex;align-items:center;justify-content:center;padding:.25rem;border:1px solid rgba(167,139,250,.28);border-radius:16px;background:rgba(167,139,250,.08)}
+.footer-arcade-link img{display:block;width:44px;height:44px;border-radius:12px;flex-shrink:0}
+.footer-arcade-link:hover{border-color:var(--pri);background:rgba(185,243,74,.08);transform:translateY(-2px)}

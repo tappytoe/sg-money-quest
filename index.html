@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Money Quest SG – Learn Singapore Money</title>
+  <meta name="description" content="A fun game for primary school kids to learn Singapore dollars and cents: counting, shopping, giving change, saving and spending wisely.">
+  <meta name="theme-color" content="#2b2140">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="homeBtn" class="icon-btn" aria-label="Home">🏠</button>
+    <h1 class="logo">Money Quest <span>SG</span></h1>
+    <div class="stats">
+      <span id="starCount" aria-label="Stars">⭐ 0</span>
+      <button id="soundBtn" class="icon-btn" aria-label="Toggle sound">🔊</button>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer>Made for young money learners in Singapore 🇸🇬 · Play money only — not real currency.</footer>
+
+  <div id="toast" role="status"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="js/money.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

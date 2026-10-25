@@ -191,3 +191,6 @@ footer{padding-top:1.4rem}
   .arcade-link span{max-width:78px;white-space:normal;line-height:1.05}
   .stats{gap:.3rem;font-size:.9rem}
 }
+
+.footer-arcade-link{margin-top:.55rem;display:inline-flex;justify-content:center}
+footer{text-align:center;line-height:1.8}
